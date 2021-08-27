@@ -1,0 +1,155 @@
+body,html{
+    background-color:black;
+}
+h1{
+    color:white;
+    position:absolute;
+    top:300px;
+    left:730px;
+}
+.container{
+    position:absolute;
+    top:400px;
+    left:400px;
+}
+.flex-container{
+    display:flex;
+    background-color:aliceblue;
+    height:200px;
+    flex-wrap:nowrap;
+    
+}
+.box{
+    background-color:rgb(156, 4, 202);
+    margin:15px;
+    height:160px;
+    width:150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:cursive;
+    text-align: center;
+
+}
+#box1{
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+    transition-delay:1s;
+}
+#box1:hover{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    
+}
+#box2{
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+    transition-delay:1s;
+}
+#box2:hover{
+    width: 0; 
+    height: 0; 
+    border-bottom: 160px solid rgb(156, 4, 202); 
+    border-left: 80px solid transparent; 
+    border-right: 80px solid transparent; 
+   
+    background-color:aliceblue;
+    color:transparent;
+    
+}
+#box3{
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+
+#box3:hover{
+    width: 0;
+  height: 0;
+  border-bottom: 60px solid black;
+  border-top: 60px solid black;
+  border-left: 60px solid yellow;
+  border-right: 60px solid yellow;
+  -moz-border-radius: 60px; 
+  -webkit-border-radius: 60px; 
+  border-radius: 60px;
+  color:transparent;
+  
+}
+
+
+#box4{
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+    
+}
+
+#box4:hover{
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid blue;
+  border-left: 60px solid blue;
+  border-bottom: 60px solid blue;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  color:transparent;
+  background-color: aliceblue;
+    
+    
+}
+#box5{
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+
+#box5:hover{
+    display:block;
+   width:126px; 
+/* width has to be 70% of height */
+/* could use width:70%; in a square container */
+   height:180px;
+   background-color:blue;
+
+/* beware that Safari needs actual
+ px for border radius (bug) */
+   -webkit-border-radius:63px 63px 63px 63px/
+   108px 108px 72px 72px;
+   /* fails in Safari, but overwrites in Chrome */
+   border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+   color:transparent;
+}
+#box6{
+    transition-property:all;
+    transition-duration: 2s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+    
+}
+
+#box6:hover{
+     
+    width: 0; 
+    height: 0;
+    border-top: 160px solid blue;
+    border-left: 80px solid transparent; 
+    border-right: 80px solid transparent; 
+    background-color:aliceblue;
+    color:transparent;
+}
+
+    
+
+   
+
+    
